@@ -1,0 +1,17 @@
+{
+  "name": "parcel-checker-pwa",
+  "private": true,
+  "version": "2.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "node prepare.mjs && vite",
+    "build": "node prepare.mjs && vite build && node offline.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "zxing-wasm": "3.1.6"
+  },
+  "devDependencies": {
+    "vite": "6.1.0"
+  }
+}

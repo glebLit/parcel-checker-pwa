@@ -1,0 +1,1 @@
+import {mkdir,copyFile} from 'node:fs/promises';await mkdir('public/scanner',{recursive:true});await copyFile('node_modules/zxing-wasm/dist/reader/zxing_reader.wasm','public/scanner/zxing_reader.wasm');await copyFile('node_modules/zxing-wasm/LICENSE','public/scanner/LICENSE.txt');

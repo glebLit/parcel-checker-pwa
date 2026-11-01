@@ -1,0 +1,22 @@
+[
+  {
+    "file": "prepare.mjs",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "vite.config.js",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "offline.mjs",
+    "syntax_ok": true,
+    "error": ""
+  },
+  {
+    "file": "src/app.js",
+    "syntax_ok": true,
+    "error": ""
+  }
+]
